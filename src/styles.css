@@ -1,0 +1,18 @@
+/*
+ * style.css
+ *
+ * 这个文件用于定义插件的自定义样式。
+ * Obsidian 会自动加载这个文件。
+ */
+
+/* * 将所有 ID 为 'heart' 的 lucide 图标 (Obsidian 的内置图标库)
+ * 的颜色设置为红色。
+ *
+ * 这将同时影响你插件的:
+ * 1. 左侧功能区 (Ribbon) 的爱心图标。
+ * 2. 侧边栏视图 (View) 标签页上的爱心图标。
+ */
+.lucide-heart {
+	color: #e91e63; /* "color" 属性控制描边 (stroke) */
+	fill: #e91e63;  /* "fill" 属性控制填充 (内部) */
+}
